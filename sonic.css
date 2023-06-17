@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'NiseSegaSonic';
+    src: url(fonts/NiseSegaSonic.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvatica' format('truetype');
+    src: url(font/Helvetica-BoldOblique.TTF);
+    font-weight: bold;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#board {
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+#logo {
+    font-family: 'NiseSegaSonic', sans-serif;
+    font-size: 4.5em;
+    color: blue;
+    padding: 0.2em;
+    text-shadow: -3px 3px 0 #eea113,
+                    3px 3px 0 #eea113,
+                    3px -3px 0 #eea113,
+                    -3px -3px 0 #eea113;
+
+}
+
+#underLogo {
+    font-family: 'Helvatica', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0.3em;
+    /* background-color: gold; */
+    color:rgb(241, 151, 193);
+    /* left: 50%; */
+    /* margin-left: 0em; */
+    text-shadow: -1px 2px 0 #081999,
+                    1px 2px 0 #081999;
+
+}
